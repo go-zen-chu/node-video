@@ -1,0 +1,11 @@
+const http = require('http');
+const util = require('util');
+const port = process.env.PORT || 1337
+
+http.createServer((req, res) => {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    
+    res.end('Hello World\n');
+}).listen(port);
+
+console.log(util.format('Server running at http://localhost:%d', port));

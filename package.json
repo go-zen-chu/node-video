@@ -1,0 +1,30 @@
+{
+  "name": "node-video",
+  "version": "0.0.1",
+  "description": "node web server for viewing video on s3",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.275.1",
+    "fs": "0.0.1-security",
+    "video.js": "^7.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Go-zen-chu/node-video.git"
+  },
+  "keywords": [
+    "node",
+    "videojs",
+    "s3"
+  ],
+  "author": "Akira Masuda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Go-zen-chu/node-video/issues"
+  },
+  "homepage": "https://github.com/Go-zen-chu/node-video#readme"
+}
