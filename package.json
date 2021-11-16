@@ -4,7 +4,7 @@
   "description": "node web server for viewing video on s3",
   "main": "index.js",
   "dependencies": {
-    "aws-sdk": "^2.275.1",
+    "aws-sdk": "^2.814.0",
     "fs": "0.0.1-security",
     "video.js": "^7.0.5"
   },
